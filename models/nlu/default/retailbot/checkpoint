@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/pds_gcloud/chatbot/retail369/./models/nlu/default/retailbot/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/pds_gcloud/chatbot/retail369/./models/nlu/default/retailbot/intent_classifier_tensorflow_embedding.ckpt"

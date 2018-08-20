@@ -1,0 +1,20 @@
+{
+  "states": [
+    "intent_goodbye",
+    "intent_greet",
+    "intent_sales",
+    "entity_sales_entity",
+    "entity_date",
+    "entity_store_id",
+    "slot_date_0",
+    "slot_store_id_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_information_type",
+    "prev_utter_ask_store_id",
+    "prev_action_sales"
+  ]
+}

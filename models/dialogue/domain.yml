@@ -1,0 +1,53 @@
+%YAML 1.1
+---
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_information_type
+- utter_ask_store_id
+- action_sales
+actions:
+- utter_greet
+- utter_goodbye
+- utter_information_type
+- utter_ask_store_id
+- actions.ActionSales
+config:
+  store_entities_as_slots: true
+entities:
+- sales_entity
+- date
+- store_id
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- sales:
+    use_entities: true
+slots:
+  date:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  store_id:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_store_id:
+  - text: Kindly provide the store id or the name of the store you are seeking the
+      information!
+  - text: Let me know the store name or the store id for your query to be answered!
+  utter_goodbye:
+  - text: Talk to you later
+  - text: See you again, Hope I helped you!
+  - text: Bye Bye
+  - text: My pleasure in helping you!
+  utter_greet:
+  - text: Hello, Welcome to Prescience Demo Retail Information Solution! I will assist
+      you with Store Related Information and Category Related Information. Kinldy
+      let me know what type of information you want.
+  utter_information_type:
+  - text: Kindly provide the information category
+  - text: Kindly let me know the type of information you required, it will help me
+      to understand your needs and serve better!

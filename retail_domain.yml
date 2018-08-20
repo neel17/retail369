@@ -1,0 +1,40 @@
+slots:
+    store_id:
+        type: text
+    date:
+        type: text
+        
+intents:
+    - greet
+    - goodbye
+    - sales
+
+
+entities:
+    - sales_entity
+    - date
+    - store_id
+
+templates:
+    utter_greet:
+        - 'Hello, Welcome to Prescience Demo Retail Information Solution! I will assist you with Store Related Information and Category Related Information. Kinldy let me know what type of information you want.'
+    utter_goodbye:
+        - 'Talk to you later'
+        - 'See you again, Hope I helped you!'
+        - 'Bye Bye'
+        - 'My pleasure in helping you!'
+    utter_information_type:
+        - 'Kindly provide the information category'
+        - 'Kindly let me know the type of information you required, it will help me to understand your needs and serve better!'
+    utter_ask_store_id:
+        - 'Kindly provide the store id or the name of the store you are seeking the information!'
+        - 'Let me know the store name or the store id for your query to be answered!'
+
+
+actions:
+    - utter_greet
+    - utter_goodbye
+    - utter_information_type
+    - utter_ask_store_id
+    - actions.ActionSales
+    

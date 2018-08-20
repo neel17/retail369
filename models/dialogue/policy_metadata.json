@@ -1,0 +1,32 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_ask_store_id": {
+      "slots": []
+    },
+    "action_sales": {
+      "slots": []
+    },
+    "utter_information_type": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.10.4",
+  "max_histories": [
+    2,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}
