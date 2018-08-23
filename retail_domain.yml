@@ -1,8 +1,9 @@
 slots:
     store_id:
         type: text
-    date:
+    time:
         type: text
+    
         
 intents:
     - greet
@@ -36,5 +37,5 @@ actions:
     - utter_goodbye
     - utter_information_type
     - utter_ask_store_id
-    - actions.ActionSales
+    - __main__.ActionSales
     

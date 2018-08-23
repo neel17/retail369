@@ -1,0 +1,3935 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+  "text":"get me store369 sales in 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":29,
+      "value":"2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":29,
+      "value":"2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in Feb 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":33,
+      "value":"Feb 2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in Mar 2004",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":33,
+      "value":"Mar 2004",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in February 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":38,
+      "value":"February 2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in last week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":34,
+      "value":"last week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":34,
+      "value":"last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in last day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":33,
+      "value":"last day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in yesterday",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":34,
+      "value":"yesterday",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in previous day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":37,
+      "value":"previous day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in previous year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":38,
+      "value":"previous year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in previous week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":38,
+      "value":"previous week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in previous quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":41,
+      "value":"previous quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in 1st quarter 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":41,
+      "value":"1st quarter 2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in 1st quarter this year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":46,
+      "value":"1st quarter this year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in 3rd quarter last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":46,
+      "value":"3rd quarter last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in 2nd quarter 2013",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":41,
+      "value":"2nd quarter 2013",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":29,
+      "value":"2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in 2014",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":29,
+      "value":"2014",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales in last quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":25,
+      "end":37,
+      "value":"last quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":30,
+      "value":"2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":30,
+      "value":"2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for Feb 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":34,
+      "value":"Feb 2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for Mar 2004",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":34,
+      "value":"Mar 2004",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for February 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":39,
+      "value":"February 2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for last week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":35,
+      "value":"last week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":35,
+      "value":"last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for last day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":34,
+      "value":"last day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for yesterday",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":35,
+      "value":"yesterday",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for previous day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":38,
+      "value":"previous day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for previous year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":39,
+      "value":"previous year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for previous week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":39,
+      "value":"previous week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for previous quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":42,
+      "value":"previous quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for 1st quarter 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":42,
+      "value":"1st quarter 2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for 1st quarter this year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":47,
+      "value":"1st quarter this year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for 3rd quarter last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":47,
+      "value":"3rd quarter last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for 2nd quarter 2013",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":42,
+      "value":"2nd quarter 2013",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":30,
+      "value":"2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for 2014",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":30,
+      "value":"2014",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales for last quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":21,
+      "value":"sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":26,
+      "end":38,
+      "value":"last quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":35,
+      "value":"2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":35,
+      "value":"2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in Feb 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":39,
+      "value":"Feb 2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in Mar 2004",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":39,
+      "value":"Mar 2004",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in February 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":44,
+      "value":"February 2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in last week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":40,
+      "value":"last week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":40,
+      "value":"last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in last day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":39,
+      "value":"last day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in yesterday",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":40,
+      "value":"yesterday",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in previous day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":43,
+      "value":"previous day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in previous year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":44,
+      "value":"previous year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in previous week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":44,
+      "value":"previous week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in previous quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":47,
+      "value":"previous quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in 1st quarter 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":47,
+      "value":"1st quarter 2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in 1st quarter this year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":52,
+      "value":"1st quarter this year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in 3rd quarter last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":52,
+      "value":"3rd quarter last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in 2nd quarter 2013",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":47,
+      "value":"2nd quarter 2013",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":35,
+      "value":"2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in 2014",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":35,
+      "value":"2014",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value in last quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":43,
+      "value":"last quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":36,
+      "value":"2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":36,
+      "value":"2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for Feb 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":40,
+      "value":"Feb 2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for Mar 2004",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":40,
+      "value":"Mar 2004",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for February 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":45,
+      "value":"February 2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for last week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":41,
+      "value":"last week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":41,
+      "value":"last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for last day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":40,
+      "value":"last day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for yesterday",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":41,
+      "value":"yesterday",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for previous day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":44,
+      "value":"previous day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for previous year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":45,
+      "value":"previous year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for previous week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":45,
+      "value":"previous week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for previous quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":48,
+      "value":"previous quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for 1st quarter 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":48,
+      "value":"1st quarter 2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for 1st quarter this year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":53,
+      "value":"1st quarter this year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for 3rd quarter last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":53,
+      "value":"3rd quarter last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for 2nd quarter 2013",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":48,
+      "value":"2nd quarter 2013",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":36,
+      "value":"2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for 2014",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":36,
+      "value":"2014",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 sales value for last quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"sales value",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":44,
+      "value":"last quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":35,
+      "value":"2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":35,
+      "value":"2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in Feb 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":39,
+      "value":"Feb 2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in Mar 2004",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":39,
+      "value":"Mar 2004",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in February 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":44,
+      "value":"February 2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in last week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":40,
+      "value":"last week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":40,
+      "value":"last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in last day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":39,
+      "value":"last day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in yesterday",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":40,
+      "value":"yesterday",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in previous day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":43,
+      "value":"previous day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in previous year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":44,
+      "value":"previous year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in previous week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":44,
+      "value":"previous week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in previous quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":47,
+      "value":"previous quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in 1st quarter 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":47,
+      "value":"1st quarter 2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in 1st quarter this year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":52,
+      "value":"1st quarter this year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in 3rd quarter last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":52,
+      "value":"3rd quarter last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in 2nd quarter 2013",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":47,
+      "value":"2nd quarter 2013",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":35,
+      "value":"2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in 2014",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":35,
+      "value":"2014",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales in last quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":31,
+      "end":43,
+      "value":"last quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":36,
+      "value":"2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":36,
+      "value":"2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for Feb 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":40,
+      "value":"Feb 2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for Mar 2004",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":40,
+      "value":"Mar 2004",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for February 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":45,
+      "value":"February 2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for last week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":41,
+      "value":"last week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":41,
+      "value":"last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for last day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":40,
+      "value":"last day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for yesterday",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":41,
+      "value":"yesterday",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for previous day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":44,
+      "value":"previous day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for previous year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":45,
+      "value":"previous year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for previous week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":45,
+      "value":"previous week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for previous quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":48,
+      "value":"previous quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for 1st quarter 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":48,
+      "value":"1st quarter 2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for 1st quarter this year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":53,
+      "value":"1st quarter this year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for 3rd quarter last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":53,
+      "value":"3rd quarter last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for 2nd quarter 2013",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":48,
+      "value":"2nd quarter 2013",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":36,
+      "value":"2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for 2014",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":36,
+      "value":"2014",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 total sales for last quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":27,
+      "value":"total sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":32,
+      "end":44,
+      "value":"last quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":39,
+      "value":"2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":39,
+      "value":"2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in Feb 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":43,
+      "value":"Feb 2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in Mar 2004",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":43,
+      "value":"Mar 2004",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in February 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":48,
+      "value":"February 2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in last week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":44,
+      "value":"last week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":44,
+      "value":"last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in last day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":43,
+      "value":"last day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in yesterday",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":44,
+      "value":"yesterday",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in previous day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":47,
+      "value":"previous day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in previous year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":48,
+      "value":"previous year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in previous week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":48,
+      "value":"previous week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in previous quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":51,
+      "value":"previous quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in 1st quarter 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":51,
+      "value":"1st quarter 2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in 1st quarter this year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":56,
+      "value":"1st quarter this year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in 3rd quarter last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":56,
+      "value":"3rd quarter last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in 2nd quarter 2013",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":51,
+      "value":"2nd quarter 2013",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":39,
+      "value":"2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in 2014",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":39,
+      "value":"2014",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales in last quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":35,
+      "end":47,
+      "value":"last quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":40,
+      "value":"2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":40,
+      "value":"2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for Feb 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":44,
+      "value":"Feb 2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for Mar 2004",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":44,
+      "value":"Mar 2004",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for February 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":49,
+      "value":"February 2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for last week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":45,
+      "value":"last week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":45,
+      "value":"last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for last day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":44,
+      "value":"last day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for yesterday",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":45,
+      "value":"yesterday",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for previous day",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":48,
+      "value":"previous day",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for previous year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":49,
+      "value":"previous year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for previous week",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":49,
+      "value":"previous week",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for previous quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":52,
+      "value":"previous quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for 1st quarter 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":52,
+      "value":"1st quarter 2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for 1st quarter this year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":57,
+      "value":"1st quarter this year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for 3rd quarter last year",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":57,
+      "value":"3rd quarter last year",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for 2nd quarter 2013",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":52,
+      "value":"2nd quarter 2013",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":40,
+      "value":"2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for 2014",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":40,
+      "value":"2014",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 aggregate sales for last quarter",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":31,
+      "value":"aggregate sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":48,
+      "value":"last quarter",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 cumulative sales in 2012",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":32,
+      "value":"cumulative sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":40,
+      "value":"2012",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 cumulative sales in 2017",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":32,
+      "value":"cumulative sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":40,
+      "value":"2017",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 cumulative sales in Feb 2015",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":32,
+      "value":"cumulative sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":44,
+      "value":"Feb 2015",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369",
+      "entity":"store_id"
+    }
+  ]
+},
+{
+  "text":"get me store369 cumulative sales in Mar 2004",
+  "intent":"sales",
+  "entities":[
+    {
+      "start":16,
+      "end":32,
+      "value":"cumulative sales",
+      "entity":"sales_entity"
+    },
+    {
+      "start":36,
+      "end":44,
+      "value":"Mar 2004",
+      "entity":"date"
+    },
+    {
+      "start":7,
+      "end":15,
+      "value":"store369"

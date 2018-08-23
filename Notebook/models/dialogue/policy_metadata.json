@@ -7,6 +7,9 @@
         "time"
       ]
     },
+    "utter_information_type": {
+      "slots": []
+    },
     "action_sales": {
       "slots": [
         "store_id"
@@ -20,14 +23,11 @@
     },
     "utter_ask_store_id": {
       "slots": []
-    },
-    "utter_information_type": {
-      "slots": []
     }
   },
   "rasa_core": "0.10.4",
   "max_histories": [
-    2,
+    5,
     5
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",

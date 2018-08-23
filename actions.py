@@ -12,12 +12,25 @@ class ActionSales(Action):
 		
 	def run(self, dispatcher, tracker, domain):
 		store_id = tracker.get_slot('store_id')
-		date = tracker.get_slot('date')
+		date = tracker.get_slot('time')
+		d1 = date[:10]
 
-		response = """It is currently the default message, since the database connection is pending"""
-		#response = []
-		#response.append([store_id,date])
+		import pyodbc
+		import pandas as pd
+		
+		cnxn = pyodbc.connect("Driver={ODBC Driver 17 for SQL Server};"
+                	"Server=pdssoldb.database.windows.net;"
+                        "Database=PDS_Sol_1;"
+                        "uid=Sandeep;pwd=Abcd@1111")
 
+		query = "select sum(sales) from DH_ALL_STORES_ALL_DAYS_SALES_PRED_A where store_id = 369 and date = {}".format("'"+ d1 +"'")
+		#df = pd.read_sql_query(query,cnxn)
+		
+		
+
+
+		#response = """It is currently the default message, since the database connection is pending"""
+		response = pd.read_sql_query(query,cnxn)
 				
 		dispatcher.utter_message(response)
 		return [SlotSet('store_id',store_id)]

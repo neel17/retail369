@@ -12,7 +12,7 @@ actions:
 - utter_goodbye
 - utter_information_type
 - utter_ask_store_id
-- actions.ActionSales
+- __main__.ActionSales
 config:
   store_entities_as_slots: true
 entities:
