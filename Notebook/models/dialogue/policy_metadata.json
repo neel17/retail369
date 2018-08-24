@@ -2,12 +2,12 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "date",
         "store_id",
-        "time"
+        "time",
+        "date"
       ]
     },
-    "utter_information_type": {
+    "utter_goodbye": {
       "slots": []
     },
     "action_sales": {
@@ -15,13 +15,13 @@
         "store_id"
       ]
     },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "utter_greet": {
+    "utter_information_type": {
       "slots": []
     },
     "utter_ask_store_id": {
+      "slots": []
+    },
+    "utter_greet": {
       "slots": []
     }
   },
