@@ -37,5 +37,5 @@ actions:
     - utter_goodbye
     - utter_information_type
     - utter_ask_store_id
-    - __main__.ActionSales
+    - actions.ActionSales
     

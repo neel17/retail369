@@ -14,3 +14,12 @@
     - slot{"store_id": "store1234"}
     - export
 
+## Generated Story 1925054139134102409
+* greet
+    - utter_greet
+* sales{"date": "yesterday", "store_id": "store1234", "time": "2018-08-26T00:00:00.000-07:00"}
+    - slot{"store_id": "store1234"}
+    - slot{"time": "2018-08-26T00:00:00.000-07:00"}
+    - action_sales
+    - export
+

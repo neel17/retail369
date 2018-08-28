@@ -2,32 +2,32 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "date",
         "store_id",
+        "date",
         "time"
       ]
+    },
+    "utter_greet": {
+      "slots": []
     },
     "action_sales": {
       "slots": [
         "store_id"
       ]
     },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "utter_greet": {
-      "slots": []
-    },
     "utter_ask_store_id": {
       "slots": []
     },
     "utter_information_type": {
       "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
     }
   },
   "rasa_core": "0.10.4",
   "max_histories": [
-    2,
+    5,
     5
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
